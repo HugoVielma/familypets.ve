@@ -1,0 +1,213 @@
+@import url ('https://fonts.googleapis.com/css2? family = Atuendo: wght @ 300; 600; 800 & family = Playfair + Display: ital, wght @ 0,400; 1,500 & display = swap' );
+/*
+paleta de colores logo:
+color: #FF0036; rojo
+color: #00BE00; verde letras
+color: #FF7A00; marron naranja
+color: #A59E9F; gris
+color: #050000; black
+*/
+
+/*
+font-family: 'Outfit', sans-serif;
+font-family: 'Playfair Display', serif;
+*/
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+}
+ .header__logo {
+    width: 300px;
+}
+.navbar-nav{
+    color: white;
+   margin: auto;
+}
+.nav-link{
+    color:white;
+    font-family: 'Outfit', sans-serif;
+   font-weight: 800;
+   font-size: large;
+}
+.nav-item{
+    padding: 0px 30px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+}
+.nav-item:hover{
+    background-color: hsla(0,0%,100%,.3);
+    font-weight: bold;
+}
+.main__background{
+    background-color: #00BE00;
+    width: 100%;
+}
+.clearfix{
+  padding: 30px 10px 20px 30px;
+ }
+ .titulo__principal{
+    font-family: 'Playfair Display', serif;
+ }
+.titulo__vendidos{
+    margin: 30px 10px 20px 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: xx-large;
+    max-width: 100%;
+    height: 40px;
+}
+.carousel__inde{
+  max-width: 100%;
+  overflow: hidden;
+}
+.container__carousel{
+    height: 150px;
+    width: 400px;
+}
+.container__img{
+   max-width: 100%;
+  margin: 0px 70px 15px;
+}
+p{
+    font-family: sans-serif;
+}
+.col{
+    display: grid;
+}
+.titulo__descripcion{
+    padding: 30px 50px;
+    font-family: 'Playfair Display', serif;
+}
+.enlace__descripcion{
+   text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Outfit', sans-serif;
+}
+.enlace__descripcion:hover{
+    color: #00BE00;
+}
+.titulo{
+    margin-top: 15px;
+    width: 100%;
+}
+.titulo__final{
+    margin: 60px 15px 10px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+.card-title{
+    background-color:  #00BE00;
+    text-align: center;
+    color: white;
+    font-family:'Playfair Display', serif;
+}
+.titulo__pago{
+    text-align: center;
+     font-family:'Playfair Display', serif;
+     font-weight: 700;
+     max-width: 100%;
+ }
+ .titulo__pago-dos{
+    margin-left: 90px;
+    font-family:'Playfair Display', serif;
+    font-weight: 700;
+    max-width: 100%;
+}
+.container__footer{
+    display: flex;
+    text-align: center;
+}
+/*perros*/
+.titulo__perros{
+    font-family:'Playfair Display', serif;
+}
+.parrafo__main-top{
+    margin: 30px 0px;
+}
+.titulo__main-tres{
+    margin-top: 60px;
+    font-family:'Playfair Display', serif;
+}
+.container-fluid__fila{
+    margin: 60px;
+}
+.container__imag-derecha{
+    margin: 0px 160px;
+}
+.container__imag{
+   margin: auto;
+}
+.titulo__pago{
+   text-align: center;
+    font-family:'Playfair Display', serif;
+    font-weight: 700;
+    max-width: 100%;
+}
+.pie{
+    background-color:#00BE00;
+    color: white;
+}
+.img__card{
+  margin-top: 50%;
+}
+.img__card-ancho{
+    width: 700px;
+}
+.titulo__productos-dos{
+    font-family:'Playfair Display', serif;
+}
+/*gato*/
+.main__img{
+    width: 300px;
+}
+.vendidos{
+    width: 100%;
+}
+/*pez*/
+.contenedor__carousel{
+    max-width: 100%;
+    height: 50%;
+}
+
+.sub__titulo{
+    text-align: center;
+}
+/*Ofertas*/
+.main__contenedor{
+    background-image: url("../img/accesorios-para-perros-set-productos-mascotas-alimentos-rayar-poste-de-juguetes-peine-tratar-el-estilo-dibujos-animados-vector-192874239.jpg");
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main__oferta{
+    margin: auto;
+    background-color: #00BE00;
+    margin-top: 200px;
+    padding: 40px;
+    width: 300px;
+    text-align: center;
+    border-radius: 80%;
+}
+.main__titulo{
+    color: white;
+    padding-top: 50%;
+}
+
+
+@media only screen and (max-width:1024px) {
+      .card{margin:auto;}
+      .container__imag-derecha{margin: 0px 80px;}
+}
+
+@media only screen and (min-width:768px) {
+   .img__derecha{width: 60px;}
+   .container__imag-derecha{margin: 0px 50px}
+   .img__izquierda{width: 80px;}
+   .container__imag{margin: 0px 50px;}
+   .header.main__background{width: 100%;}
+}
